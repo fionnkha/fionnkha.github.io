@@ -16,6 +16,7 @@ margin-top: 1.3em;
 }
 nav ul li{
 list-style-type: none;
+margin-bottom: .2em;
 }
 nav ul li a {
 color: rgb(95,109,34);
@@ -37,9 +38,8 @@ font-family: "tt-ricordi-allegria", serif;
 font-weight: bold;
 font-style: normal;
 color: rgb(95,109,34);
-margin-left: .1em;
-margin-top: .1em;
 font-size: 2.5em;
+margin-top:.2em;
 }
 section.secondarystory h2{
 font-size: 1.7em;
@@ -93,7 +93,7 @@ border-top: 1px solid #C58A6D;
 @media only screen and (min-width: 60em) {
 div.home-container {
 max-width: 80em;
-padding: 0 1em;
+padding: 0 5em;
 display:grid;
 grid-template-columns: 3fr 1fr;
 grid-gap: 1em;
